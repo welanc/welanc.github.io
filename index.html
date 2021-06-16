@@ -1,57 +1,224 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Starter Template · Bootstrap v5.0</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
 
-<body>
-  <h1>Welan C</h1>
-  <br>
-  <img src="https://i.ytimg.com/vi/wWqdhBdeMSg/hqdefault.jpg" alt="A very legitimate image of me">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula lorem. Morbi ac turpis in lacus ornare
-    sollicitudin. Maecenas sed fringilla ex. Mauris finibus lobortis tellus vel consectetur. Sed suscipit nisi vel risus
-    congue, sed varius leo porta. Mauris id pulvinar massa. Fusce feugiat consectetur porttitor. Fusce hendrerit viverra
-    metus, at accumsan dolor maximus at. Aenean mattis sollicitudin massa, ut sodales velit facilisis porttitor.
-  </p>
-  <p>
-    Quisque nec massa tincidunt lectus pellentesque malesuada. Vestibulum vel ornare orci. Praesent accumsan mattis
-    purus ut
-    finibus. Vestibulum elementum fermentum sem, accumsan commodo sapien feugiat eget. Suspendisse ornare convallis
-    pretium.
-    Pellentesque tempus mi et neque viverra, vitae fermentum quam elementum. Ut interdum leo ut purus facilisis, eu
-    dictum
-    elit malesuada. Sed a diam ullamcorper neque feugiat dictum in eu orci. Phasellus sodales fermentum orci sit amet
-    aliquam. Fusce id justo vulputate, dictum enim lacinia, fringilla nibh. Pellentesque eget augue vel lacus rutrum
-    feugiat
-    sed ac sem. Fusce tempus convallis molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  </p>
-  <ul>
-    <li><a href="http://www.facebook.com" target="_blank">My Facebook Page</a></li>
-    <li><a href="http://www.instagram.com" target="_blank">My Instagram Account</a></li>
-    <li><a href="http://www.linkedin.com" target="_blank">My LinkedIn Account</a></li>
-  </ul>
-  <table border="2px">
-    <thead>
-      <tr>
-        <th colspan="3" align="center" bgcolor="lightblue">My Favourite Things</th>
-      </tr>
-      <tr>
-        <th>Movies</th>
-        <th>Music</th>
-        <th>Activities</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Ratatouille</td>
-        <td>Tame Impala</td>
-        <td>Bouldering</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Welan's GitHub</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+      <span class="fs-4">Welan Chu.</span>
+    </a>
+  </header>
+
+  <main>
+    <!-- <h1>Get started with Bootstrap</h1>
+    <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
+
+    <div class="mb-5">
+      <a href="../examples/" class="btn btn-primary btn-lg px-4">Download examples</a>
+    </div>
+
+    <hr class="col-3 col-md-2 mb-5">
+
+    <div class="row g-5">
+      <div class="col-md-6">
+        <h2>Starter projects</h2>
+        <p>Ready to beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository.</p>
+        <ul class="icon-list">
+          <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">Bootstrap npm starter</a></li>
+          <li class="text-muted">Bootstrap Parcel starter (coming soon!)</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Guides</h2>
+        <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+        <ul class="icon-list">
+          <li><a href="../getting-started/introduction/">Bootstrap quick start guide</a></li>
+          <li><a href="../getting-started/webpack/">Bootstrap Webpack guide</a></li>
+          <li><a href="../getting-started/parcel/">Bootstrap Parcel guide</a></li>
+          <li><a href="../getting-started/build-tools/">Contributing to Bootstrap</a></li>
+        </ul>
+      </div>
+    </div> -->
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+Junior Data Analyst; Registered Architect and Property & Construction Graduate; <br>
+BArchSt, BPC, MArch <i>Melb.</i><br>
+LinkedIn: <a href="https://www.linkedin.com/in/welan-c/" target="blank">linkedin.com/in/welan-c/</a> Github: <a href="https://www.github.com/welanc" target="blank">github.com/welanc</a><br>
+</div>
+<div class="col-sm-9">
+Data analyst and registered architect, with a background in architecture, property investment and valuation, and skills in Python, SQL, and NoSQL, Scikit Learn and Tensorflow, Excel and VBA, as well as Tableau, Javascript ES6+, HTML and CSS, from Monash University’s data analytics boot camp. Proficient in data mining within datasets of all sizes, from structured, semi-structured, to raw data, with skills in Python Machine Learning and Big Data analysis (e.g. using Tensorflow) and an unwavering curiosity to discover the undiscovered. Passionate about the built environment and improving investment strategies, end-user outcomes, property management, and sustainability initiatives. Strengths including analytical problem solving combined with collaborating across diverse groups makes me a valuable addition to any team.<br>
+</div>
+
+</div><br>
+<div class="row">
+<div class="col">
+<h2>{{ TECHNICAL SKILLS }}</h2><br>
+<b>Languages:</b> Python, R, JavaScript ES6+, HTML5, CSS3, SQL, NoSQL <br>
+<b>Applications:</b> GitHub, MongoDB, PostgreSQL, AWS, Flask, Command Line, Tableau, Mapbox, Excel <br>
+<b>Tools:</b> Matplotlib, Scikit Learn, TensorFlow, Databasing, Leaflet, GeoJSON, Pandas, Jupyter Notebook, SQLAlchemy<br>
+</div>
+</div><br>
+<div class="row">
+<div class="col">
+<h2>{{ KEY PROJECTS }}</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">Movie Revenue &amp; Review Score Predictor</button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="">
+      <div class="accordion-body">
+<b>Brief:</b> Using a Machine Learning Model (gradient boosted machine), trained on a IMDb film dataset to predict the revenue and review score of a new film based on numerous user-defined parameters.<br>
+<b>Role:</b> Python coding, data wrangling, LightGBM machine learning model training and hyper parameter tuning; HTML, CSS and Javascript front-end coding.<br> 
+<b>Tools:</b> XGBoost and LightGBM, Scikit Learn, Keras, GridSearchCV, Python Flask.
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Vic. Crime Suburb/LGA Map Visualisation</button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample" style="">
+      <div class="accordion-body">
+<b>Brief:</b> Using Javascript, Python Flask and MongoDB to host Victorian Crime statistics on a NoSQL server and map over time.<br> 
+<b>Role:</b> Lead Javascript coder, implemented all features (Flask connection, Mapbox connection, Leaflet: GeoJSON, Choropleth, Time slider), HTML & CSS <br>
+<b>Tools:</b> d3.js, Leaflet.js, Mapbox, GeoJSON, Flask, MongoDB, HTML, CSS.
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Melbourne Pedestrian Traffic vs. Zomato Eateries Rating
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style="">
+      <div class="accordion-body">
+<b>Brief:</b><br>
+<b>Role:</b><br>
+<b>Tools:</b>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+</div><br>
+<div class="row">
+<div class="col-md-6">
+<h2>{{ EXPERIENCE }}</h2>
+<div class="accordion accordion-flush" id="accordionFlushExample2">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">Krisna Cheung Architects (Oct ‘18_Jun ‘21)</button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample2" style="">
+      <div class="accordion-body">
+Architect; implemented new systems for tracking documentation transmittals, timesheets and materials and fixtures schedules. Redesigned and maintained company website and all content. <br>
+<b>General achievements:</b> project lead in delivery of three residential alterations/additions projects in inner suburbs.
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">GHDWoodhead (Mar ‘17_Aug ‘18)</button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2" style="">
+      <div class="accordion-body">
+Graduate of Architecture; created simple online tool of common architectural calculations including compliant stair design, brick wall calculator, geolocation-solar angle calculator, ramp gradient converter.<br> 
+<b>General achievements:</b> lead documentor and 2IC in project coordination and delivery of education and aged care new builds.
+
+</div><br>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div class="col-md-6">
+<h2>{{ EDUCATION }}</h2>
+<div class="accordion accordion-flush" id="accordionFlushExample3">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="true" aria-controls="flush-collapseSix">Monash University, Melbourne, VIC, Australia</button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse show" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample3" style="">
+      <div class="accordion-body">
+<b>Certificate, Data Analytics</b><br>
+Nov 2020 - May 2021
+</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">University of Melbourne, Parkville, VIC, Australia</button>
+    </h2>
+    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample3" style="">
+      <div class="accordion-body">
+<b>Master of Architecture, Bachelor of Property & Construction (Property stream)</b><br>
+Mar 2011 - Jun 2013<br>
+<b>Bachelor of Architectural Studies</b><br>
+Mar 2006 - Nov 2008
+
+</div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+    Created by the Bootstrap team &middot; &copy; 2021
+  </footer>
+</div>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
